@@ -3,13 +3,14 @@
 """
 
 # Input marks for 5 subjects
-marks = []
-for i in range(1, 6):
-    mark = float(input(f"Enter marks for subject {i}: "))
-    marks.append(mark)
+mark1= float(input("Enter marks for subject 1: "))
+mark2= float(input("Enter marks for subject 2: "))
+mark3= float(input("Enter marks for subject 3: "))
+mark4= float(input("Enter marks for subject 4: "))
+mark5= float(input("Enter marks for subject 5: "))
 
 # Calculate total marks
-total_marks = sum(marks)  
+total_marks = mark1 + mark2 + mark3 + mark4 + mark5
 
 # Calculate percentage
 percentage = (total_marks / 500) * 100
